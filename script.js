@@ -3,10 +3,31 @@ console.log("First code was written in Browser.");
 fullname = "Ganesh Suresh Pise";
 console.log(fullname);
 
-console.log("Above example shows about the var in Js. variable means the object values was changed . Eg:Flipcart product.");
+var name = "Funtya";
+var name = "Rayesh";
+var name = "Ajay";
+console.log(name);
+console.log("----------------------");
 
-console.log("Variable: var are cotainer which can store any type of data.");
-console.log("Rules for Variable name :   1> Var name are case sensitive: 'a'and'A' both are different.");
-console.log("                            2> Only letters,Digits,UnderScore(_),and $ allowed (not even space allowed).");
-console.log("                            3> Only letter Underscore(_) and $ allowed they should be a first character.");
-console.log("                            4> Reserved words can not be variable names.()")
+let a ;
+a = 10;
+a = 20;
+console.log(a);
+
+{
+    let a = 145;
+    console.log(a);
+}
+
+{
+    let a = 5695;
+    console.log(a);
+}
+console.log("----------------------");
+
+{
+    const name = "Ganesh";
+    const Name = "Johnny";
+    console.log(name);
+    console.log(Name);
+}

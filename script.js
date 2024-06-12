@@ -1,0 +1,1 @@
+console.log("First code was written in Browser.");

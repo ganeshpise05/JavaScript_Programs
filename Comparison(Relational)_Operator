@@ -1,0 +1,22 @@
+//Comparison or Relational Operator (=,==,!=,===,!===)
+
+let a = 10;
+let b = 2;
+console.log('a==b : ',a==b);
+console.log("a<b: ",a<b);
+
+let x = 2;
+let y = 3;
+console.log('x!=y : ',x!=y);
+console.log('x>y:',x>y);
+
+let p = 20;
+let q = 10;
+console.log('p===q : ',p===q);
+console.log('p<=q:',p<=q);
+
+let r = 4;
+let s = 3;
+console.log('r!==s : ',r==s);
+console.log('r>=s',r>=s);
+

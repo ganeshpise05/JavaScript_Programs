@@ -1,0 +1,15 @@
+//Logical Operators (&&,||,!)
+
+let d = 22;
+let t = 12;
+
+let cond1 = d>t;//true
+let cond2 = t===22;//false
+console.log('cond1 && cond2:',cond1 && cond2);
+
+let cond3 = d>t;//true
+let cond4 = t===22;//false
+console.log('cond3 || cond4:',cond3 || cond4);
+
+let cond5 = d>t;//true 
+console.log('!cond5:', !cond5);

@@ -1,2 +1,3 @@
-console.log('2'>3);
-// console.log('02'>3);
+console.log('x='+x+' and y='+y);
+// console.log('x++ = ',x++);
+// console.log('y++ = ',y++);

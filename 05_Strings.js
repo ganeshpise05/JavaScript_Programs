@@ -36,3 +36,8 @@ console.log(newString3);
 console.log(newString3.trim());
 
 console.log("--------------------------------");
+
+const url = "https://ganeshpise.com/ganesh%33pise"
+
+console.log(url.replace('%33','-'));//replacing characcters
+console.log(url.includes('funtya'));//checking this present or not

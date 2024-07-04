@@ -21,4 +21,6 @@ console.log(gameName.length);
 
  const collageName = new String('Fabtech-FTC')
  
+ const newString = collageName.substring(0,7)
+ console.log(newString);
  

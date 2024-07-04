@@ -15,5 +15,5 @@ console.log(gameName.__proto__);
 
 console.log(gameName);
 console.log(gameName.length);
-// console.log(gameName.toUpperCase);
+ console.log(gameName.toUpperCase);
 // console.log(gameName.charAt(2));

@@ -18,9 +18,21 @@ console.log(gameName.length);
  console.log(gameName.toUpperCase);
  console.log(gameName.charAt(2));
  console.log(gameName.indexOf('t'));
+ console.log("--------------------------------");
 
  const collageName = new String('Fabtech-FTC')
  
  const newString = collageName.substring(0,7)
  console.log(newString);
+
+ const newString2 = collageName.slice(-5,4)
+ console.log(newString2);
  
+
+ console.log("--------------------------------");
+
+const newString3 = " Johnny-Depp "
+console.log(newString3);
+console.log(newString3.trim());
+
+console.log("--------------------------------");

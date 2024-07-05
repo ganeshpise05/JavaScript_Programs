@@ -21,28 +21,28 @@ console.log("Modulus of a%b = ",a%b);
 console.log("Exponential of a**b = ",a**b);//5'2=25
 console.log('===============================')
 
-//Unary Operators 
-let x = 4;
-let y = 9;
+// //Unary Operators 
+// let x = 4;
+// let y = 9;
 
-//Increment(++)
-console.log('x='+x+' and y='+y);
-console.log('x++ = ',x++);
-console.log('y++ = ',y++);
+// //Increment(++)
+// console.log('x='+x+' and y='+y);
+// console.log('x++ = ',x++);
+// console.log('y++ = ',y++);
 
-console.log('++x = ',++x);
-console.log(x);
+// console.log('++x = ',++x);
+// console.log(x);
 
-console.log('++y = ',++y);
-console.log(y);
-console.log('----------------------');
+// console.log('++y = ',++y);
+// console.log(y);
+// console.log('----------------------');
 
-//Decrement(--)
-console.log('x-- = ',x--);
-console.log('y-- = ',y--);
+// //Decrement(--)
+// console.log('x-- = ',x--);
+// console.log('y-- = ',y--);
 
-console.log('--x = ',--x);
-console.log(x);
+// console.log('--x = ',--x);
+// console.log(x);
 
-console.log('--y = ',--y);
-console.log(y);
+// console.log('--y = ',--y);
+// console.log(y);

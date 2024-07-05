@@ -19,19 +19,19 @@ const bigNumber = 2623758946574635989879n
 
 
 
-// Non-Primitive (Reference)
+// // Non-Primitive (Reference)
 
-// 3 types : Array, Objects, Functions(Methods)
+// // 3 types : Array, Objects, Functions(Methods)
 
 
-const heroes = ["jack", 'rocky', "doga"];
-let myObj = {
-    name:"Ganesh",
-    age:21,
-}
+// const heroes = ["jack", 'rocky', "doga"];
+// let myObj = {
+//     name:"Ganesh",
+//     age:21,
+// }
 
-const myFunction =  function(){
-    console.log("Hello world");
-}
+// const myFunction =  function(){
+//     console.log("Hello world");
+// }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);

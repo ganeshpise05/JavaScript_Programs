@@ -22,4 +22,4 @@ else if (age>=4 && age<9) {
 
 else {
     console.log('Please enter a valid age.')
-} 
+}

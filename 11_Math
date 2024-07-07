@@ -2,3 +2,6 @@
 
 console.log(Math); // it is an a object.
 console.log(Math.abs(4)); // used for chaging + to -
+console.log(Math.round(4,6));
+console.log(Math.ceil(10,2));
+console.log(Math.floor(20,9));

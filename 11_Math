@@ -5,3 +5,7 @@ console.log(Math.abs(4)); // used for chaging + to -
 console.log(Math.round(4,6));
 console.log(Math.ceil(10,2));
 console.log(Math.floor(20,9));
+console.log(Math.min(23,76)); //min value print
+console.log(Math.max(45,33)); // max value print
+
+console.log(Math.random()); // It can print value in between 0 to 1.

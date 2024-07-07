@@ -9,3 +9,5 @@ console.log(balance);
 
 console.log(balance.toString()); //converted into string
 console.log(balance.toString().length); //measuring length of string
+
+console.log(balance.toFixed(1)); // used in banking or ecommerce for show balance

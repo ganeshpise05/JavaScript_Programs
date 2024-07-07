@@ -11,3 +11,8 @@ console.log(balance.toString()); //converted into string
 console.log(balance.toString().length); //measuring length of string
 
 console.log(balance.toFixed(1)); // used in banking or ecommerce for show balance
+
+const funtya = 123.34343
+console.log(funtya.toPrecision(3));
+console.log(funtya.toPrecision(5));
+console.log(funtya.toPrecision(4));

@@ -1,0 +1,4 @@
+// Math
+
+console.log(Math); // it is an a object.
+console.log(Math.abs(4)); // used for chaging + to -

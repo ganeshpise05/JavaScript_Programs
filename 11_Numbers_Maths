@@ -15,4 +15,8 @@ console.log(balance.toFixed(1)); // used in banking or ecommerce for show balanc
 const funtya = 123.34343
 console.log(funtya.toPrecision(3));
 console.log(funtya.toPrecision(5));
-console.log(funtya.toPrecision(4));
+console.log(funtya.toPrecision(4));// used for give precision 
+
+
+const  balance2 = 10000000
+console.log(balance2.toLocaleString('en-IN')); // used for give commas in value.

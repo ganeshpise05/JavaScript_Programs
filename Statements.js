@@ -26,3 +26,20 @@ if (marks>35) {
 } else {
     console.log("You are failed.");
 }
+
+// else-if ladder
+
+//Example No:4
+
+let color ="Red"
+if (color=="Red") {
+    console.log("Stop the vehicles.");
+}
+
+else if (color=="Green") {
+    console.log("You can go.");
+} 
+
+else if (color=="yellow"){
+    console.log("Go slow.");
+}

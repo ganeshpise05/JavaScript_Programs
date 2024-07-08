@@ -17,3 +17,12 @@ if (age>18) {
 } else {
     console.log("You are not eligible for voting.");
 }
+
+//Example No:3
+
+let marks = 36
+if (marks>35) {
+    console.log("You are pass.");
+} else {
+    console.log("You are failed.");
+}

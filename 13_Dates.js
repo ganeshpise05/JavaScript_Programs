@@ -39,5 +39,13 @@ console.log('----------------------------');
 let newDate = new Date()
 console.log(newDate); // Give today date
 console.log(newDate.getFullYear()); // year
-console.log(newDate.getMonth()); // Month ( January start from 0)
+console.log(newDate.getMonth()+1); // Month ( January start from 0)
 console.log(newDate.getDay()); // Day
+
+console.log('----------------------------');
+
+// to get time
+
+newDate.toLocaleDateString('default',{
+    weekday:'long'
+})

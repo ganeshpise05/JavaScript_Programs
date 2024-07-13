@@ -33,3 +33,12 @@ console.log("-------------------------");
 
 console.log(array.includes(9)); // Present or not show
 console.log(array.indexOf(8)); // Print index
+
+console.log("-------------------------");
+
+// Join The array
+
+const newarray = array.join()
+
+console.log(array); // Print simple array
+console.log(newarray); // Array converted into String

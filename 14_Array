@@ -9,3 +9,27 @@ console.log(actors[2]);
 const arr = new Array(1,2,3,4,5,6,7,8,90)
 console.log(arr[2]);
 
+console.log("-------------------------");
+
+// Array Methods
+
+const array = [9,8,7,6,5,4]
+array.push(3) //Insert value in array
+array.push(2)
+console.log(array);
+
+array.pop() // Remove last element
+console.log(array);
+
+array.unshift(1) // Insert element in array
+console.log(array);
+
+array.shift(1) // Remove last inserted element in array
+console.log(array);
+
+console.log("-------------------------");
+
+// Boolean Methods
+
+console.log(array.includes(9)); // Present or not show
+console.log(array.indexOf(8)); // Print index

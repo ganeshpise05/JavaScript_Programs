@@ -1,0 +1,11 @@
+// Arrays
+
+const myArr = [0,1,2,3,4,5,6]
+console.log(myArr[5]);
+
+const actors = ["Vijay","Nagarjun","Dulquer","Mahesh"]
+console.log(actors[2]);
+
+const arr = new Array(1,2,3,4,5,6,7,8,90)
+console.log(arr[2]);
+

@@ -5,3 +5,9 @@ marvelHeroes.push(dcHeroes)
 
 console.log(marvelHeroes);
 console.log(marvelHeroes[3][1]);
+
+console.log("----------");
+
+marvelHeroes.concat(dcHeroes)
+
+console.log(marvelHeroes);

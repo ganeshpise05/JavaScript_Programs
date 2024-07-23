@@ -8,6 +8,11 @@ console.log(marvelHeroes[3][1]);
 
 console.log("----------");
 
-marvelHeroes.concat(dcHeroes)
+const ans = marvelHeroes.concat(dcHeroes)
 
-console.log(marvelHeroes);
+console.log(ans);
+
+console.log("----------------");
+
+const newAns = [...marvelHeroes, ...dcHeroes]
+console.log(newAns);

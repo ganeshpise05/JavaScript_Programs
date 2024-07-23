@@ -30,3 +30,7 @@ console.log("----------------");
 
 console.log(Array.isArray("Ganesh"))
 console.log(Array.from("Ganesh"))
+
+console.log("----------------");
+
+console.log(Array.from({name:"Ganesh"}))// interesting

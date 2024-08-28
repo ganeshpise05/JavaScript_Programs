@@ -32,6 +32,9 @@
                      <li>JDBC</li>
                      <p> Java Data Base Connectivity :  It's defined as </p>
                      <p> Five Steps of JDBC Connectivity -</p>
+
+                     <br>
+
                      <ol>
                         <li> <b>  Step 1 : Load Driver / Server </b> </li>
                         <p> For loading the driver file first import the dependency Driver file from maven project,this dependency add in <b>dependencies</b> tag .</p>
@@ -39,10 +42,19 @@
                           <ul>
                             <li> forName() method is Static method </li>
                             <li> It's present in classname <b> Class </b></li>
-                            <li> It's static method that why it's called by it's class name <b>Class.forName()</b></li>
-                            
+                            <li> It's static method that why it's called by it's class name <b>Class.forName()</b></li> 
+                            <li> <b> Class.forName("org.postgresql.Driver"); </b> </li>
                           </ul>
-                        <li> Initialize Connection </li>
+
+                          <br>
+
+                        <li> <b> Step 2 : Create / Initialize Connection </b> </li>
+                        <p>  To Create connection we have to provide URl , Username , password </p>
+                        <ul>
+                          <li> <b>Connection : </b></li>
+                          <li> It's an a interface present in <b> java.sql </b> package.</li>
+                          <li> To create the implementation object for connection interface we have to use <b>getConnection()</b> method.</li>
+                        </ul>
                         <li> Create Statement </li>
                         <li> Execute SQL Queries</li>
                         <li> Close Connection</li>

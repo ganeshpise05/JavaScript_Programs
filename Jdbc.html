@@ -60,10 +60,26 @@
                           <li> If given information is false then throws <b> SQLException </b> </li>
                           <li> getConnection method have two approaches-  </li>
                           <li> i>  getConnection("Url","UserName","password");  ----  <b>getConnection("jdbc:postgresql://localhost:5432/qsp","postgres","root");</b> </li>
-                          <li> ii> getConnection("url");  ---- <b> Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/qsp?user=postgres&password=root");</b></li>
-                          <li> </li>
+                          <li> ii> getConnection("url");  ---- <b> Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/qsp?user=postgres&password=root");</b></li> 
                         </ul>
+
+                        <br>
+
+
                         <li> Create Statement </li>
+                        <p> We can create Statement by using Three interfaces .</p>
+                        <ul>
+                          <li> Statement Interface (Car) </li> 
+                         <p> But we have to uses the <b>Statement Interface</b></p>
+                           <li> Statement interface present in java.sql package</li>
+                           <li> We uses the non static method of Interface Connection </li>
+                          <li> PreparedStatement Interface (Cycle) </li>
+                          <li> CallableStatement Interface (Horse) </li>
+                        </ul>
+
+                         <br>
+
+
                         <li> Execute SQL Queries</li>
                         <li> Close Connection</li>
                      </ol>

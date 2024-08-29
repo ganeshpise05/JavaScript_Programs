@@ -36,6 +36,7 @@ console.log(Math.floor(Date.now()/1000)); // In Second
 
 console.log('----------------------------');
 
+
 let newDate = new Date()
 console.log(newDate); // Give today date
 console.log(newDate.getFullYear()); // year

@@ -47,6 +47,7 @@ console.log('----------------------------');
 // to get time
 
 
+
 newDate.toLocaleDateString('default',{
     weekday:'long'
 })

@@ -6,7 +6,6 @@
 const score = 100
 const scoreval = 100.3
 
-
 const isLoggedIn = false
 const outsideTemp = null
 let userEmail;

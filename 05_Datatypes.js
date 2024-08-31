@@ -2,6 +2,7 @@
 
 // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
+
 const score = 100
 const scoreval = 100.3
 

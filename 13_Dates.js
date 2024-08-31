@@ -29,6 +29,7 @@ let myCreatedDate3 = new Date(2024,5,10) //in "MM-DD-YYYY"
 console.log(myCreatedDate3.toLocaleDateString());
 
 
+
 console.log('----------------------------');
 
 let myTimeStamp = Date.now() // Current date print

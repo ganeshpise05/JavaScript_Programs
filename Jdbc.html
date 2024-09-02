@@ -68,19 +68,34 @@
 
                         <li> Create Statement </li>
                         <p> We can create Statement by using Three interfaces .</p>
-                        <ul>
+
+                        <ol>
                           <li> <b>Statement Interface (Car) </b> </li> 
                          <p> But we have to uses the <b>Statement Interface</b></p>
-                           <li> Statement interface is used for to store static data i.e manual data insertion .</li>
+                           <ul>
+                         <li> Statement interface is used for to store static data i.e manual data insertion .</li>
                            <li> Statement interface present in java.sql package</li>
                            <li> We uses the non static method of Interface Connection </li>
                            <li> It can throws exception like <b> SQLException</b></li>
                            <li> Statement ste = con.createStatement() ; </li>
+                          </ul> 
 
                            <br>
-                          <li><b> PreparedStatement Interface (Cycle)</b> </li>
+
+                          <li><b> PreparedStatement Interface (Cycle)</b> 
+                            <p>This interface is used for give the Dynamically from user.</p>
+                            <ul>
+                              <li>PreparedStatement interface present in java.sql Package.</li>
+                              <li> We can uses the non static method of object of Connection interface.</li>
+                              <li>Method name is <b>prepareStatement("SQL queries.")</b></li>
+                              <li>For fetching data we want to create the <b>ResultSet </b> interface object.</li>
+                            </ul>
+                          </li>
+
+                           <br>
+
                           <li> <b>CallableStatement Interface (Horse)</b> </li>
-                        </ul>
+                        </ol>
 
                          <br>
 

@@ -161,6 +161,7 @@ hof(cbf)
 console.log("--------");
 
 // Example 2
+
 let a = 10
 let hof1 = (b,cbfParameter) => {
     cbfParameter()

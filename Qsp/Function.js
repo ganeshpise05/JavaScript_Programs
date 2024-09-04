@@ -150,9 +150,7 @@ console.log("---------------------------------");
 let hof = (cbf) => {
     console.log("HOF executed !"); 
     cbf()
-}
-
-
+} 
 
 let cbf = () => {
     console.log("CBF executed !"); 

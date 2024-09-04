@@ -36,6 +36,7 @@ div(5,10)
 mod(5,10)
 console.log('-----------------------');
 
+
 // Without declaring Funnction
 
 function WithoutDecla (a,b){
@@ -69,6 +70,7 @@ Multi(2,5)
 Div(6,3)
 Mod(10,5)
 console.log('-----------------------');
+
 
 
 // Arrow Function

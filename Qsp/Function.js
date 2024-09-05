@@ -195,3 +195,61 @@ let cbf2 = () => {
 }
 
 hof2(b,cbf2)
+
+console.log("-----------------------------------");
+
+
+// Addition ,Substraction ,Multiplication ,Division ,Modulus by using Higher Order Function(HOF) & (CBF).
+
+
+let operation = (action,x,y) =>{
+    console.log("operation function called. "); 
+    console.log(action);
+    action(x,y)  
+}
+
+// Addition
+let add2 = (a,b) =>{
+    console.log("sum2 function called.");
+    console.log(a+b); 
+
+    console.log(" ");
+}
+
+// Substarction
+let sub2 = (a,b) =>{
+    console.log("sub2 function called.");
+    console.log(a-b); 
+
+    console.log(" ");
+}
+
+// Multiplication
+let multi2 = (a,b) =>{
+    console.log("multi2 function called.");
+    console.log(a*b); 
+
+    console.log(" ");
+}
+
+// Division
+let div2 = (a,b) =>{
+    console.log("div2 function called.");
+    console.log(a/b); 
+
+    console.log(" ");
+}
+
+// Modulus
+let mod2 = (a,b) =>{
+    console.log("mod2 function called.");
+    console.log(a%b); 
+
+    console.log(" ");  
+}
+
+operation(add2,10,20)
+operation(sub2,20,10)
+operation(multi2,2,50)
+operation(div2,40,2)
+operation(mod2,10,2)

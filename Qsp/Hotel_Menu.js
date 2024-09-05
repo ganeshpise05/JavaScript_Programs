@@ -9,20 +9,20 @@ console.log("************");
 
 let showMenu = () => {
 
-    let selectChoice =  parseInt(prompt("Select Choice: \n 1 : Veg \n 2 : Non-Veg \n Enter Your Choice: "));
-    let showAlert = alert("Please enter Valid choice !")
+    let selectChoice =  parseInt(prompt("Select Choice: \n 1: Veg \n 2: Non-Veg \n Enter Your Choice: "));
+   
 
     switch (selectChoice) {
-        case Veg:
+        case 1:
             showVegMenu();
             break;
     
-        case Non-Veg:
+        case 2:
             showNonVegMenu();
             break;
 
         default:
-            showAlert
+            let showAlert = alert("Please enter Valid choice !")
             break;
     }
     
@@ -33,33 +33,79 @@ let showMenu = () => {
 let showVegMenu = () => {
 
     let choice = parseInt(prompt("Veg Food Menu : \n 1: Starter \n 2: Main Course \n 3:Pasta & Pizza \n 4: Salads \n 5: Dessert"))
-    let showAlert = alert("Please enter Valid choice !")
+   
 
     switch (choice) {
-        case Starter:
+        case 1:
             starterMenu()
             break;
 
-         case Main_Course:
+         case 2:
             Main_CourseMenu()
             break;
             
-        case Pasta_&_Pizza:
+        case 3:
             pastaAndPizzaMenu()
             break;
 
-        case Salads:
+        case 4:
             saladsMenu()
             break;
 
-        case Dessert:
+        case 5:
             dessertMenu()
             break;
     
         default:
-            showAlert
+            let showAlert = alert("Please enter Valid choice !")
             break;
     }
 }
 
+// In veg menu there are five methods are present.
+// Veg Menu : 1.starterMenu() 2.Main_CourseMenu() 3.pastaAndPizzaMenu() 4.saladsMenu() 5.dessertMenu()
+
+let starterMenu = () => 
+{
+    let choice = parseInt(prompt("1.StarterMenu: \n .Veg Spring Rolls \n .Paneer Tikka \n .Hummus with Pita Bread \n .Veg Nachos with Salsa "));
+
+    switch (choice) {
+        case 1:
+            
+            break;
+
+        case 2:
+            
+            break;
+
+        case 3:
+            
+            break;
+
+
+        case 4:
+            
+            break;
+
+        case 5:
+            
+            break;
+
+        case 6:
+            
+            break;
+
+        case 7:
+            
+            break;
+
+        case 8:
+            
+            break;
+    
+        default:
+            let showAlert = alert("Please enter Valid Starter Menu !")
+            break;
+    }
+}
 

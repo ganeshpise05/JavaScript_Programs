@@ -123,7 +123,6 @@ funct();
 
 // Invoke  Function : Calling Itself
 
-
 ((a) => { 
     console.log("Function calling itself !",a)
 })
@@ -147,7 +146,6 @@ console.log("---------------------------------");
 // Higher Order Function and Call Back Function 
 
 // Example 1
-
 
 let hof = (cbf) => {
     console.log("HOF executed !"); 

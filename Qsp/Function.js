@@ -167,6 +167,8 @@ console.log("--------");
 let a = 10
 let hof1 = (b,cbfParameter) => {
     cbfParameter()
+    console.log(b);
+    
 }
  
 let cbf1 = () => {
@@ -175,3 +177,21 @@ let cbf1 = () => {
 
 hof1(a,cbf1)
 
+console.log("--------");
+
+// Example 3
+
+let b = 20
+let hof2 = (s,seconfFunct) => { 
+
+   console.log("HOF 2 Executed ."); 
+   console.log(s,seconfFunct); //20 [Function: cbf2]
+   seconfFunct() //CBF 2 Executed
+   
+}
+
+let cbf2 = () => {
+    console.log("CBF 2 Executed."); 
+}
+
+hof2(b,cbf2)

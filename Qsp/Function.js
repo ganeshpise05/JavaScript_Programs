@@ -253,6 +253,3 @@ operation(sub2,20,10)
 operation(multi2,2,50)
 operation(div2,40,2)
 operation(mod2,10,2)
-
-
-

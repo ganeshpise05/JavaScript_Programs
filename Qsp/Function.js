@@ -198,9 +198,7 @@ hof2(b,cbf2)
 
 console.log("-----------------------------------");
 
-
 // Addition ,Substraction ,Multiplication ,Division ,Modulus by using Higher Order Function(HOF) & (CBF).
-
 
 let operation = (action,x,y) =>{
     console.log("operation function called. "); 

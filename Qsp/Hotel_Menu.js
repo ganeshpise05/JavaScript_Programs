@@ -28,4 +28,38 @@ let showMenu = () => {
     
 }
 
+// Veg Menu Function created 
+
+let showVegMenu = () => {
+
+    let choice = parseInt(prompt("Veg Food Menu : \n 1: Starter \n 2: Main Course \n 3:Pasta & Pizza \n 4: Salads \n 5: Dessert"))
+    let showAlert = alert("Please enter Valid choice !")
+
+    switch (choice) {
+        case Starter:
+            starterMenu()
+            break;
+
+         case Main_Course:
+            Main_CourseMenu()
+            break;
+            
+        case Pasta_&_Pizza:
+            pastaAndPizzaMenu()
+            break;
+
+        case Salads:
+            saladsMenu()
+            break;
+
+        case Dessert:
+            dessertMenu()
+            break;
+    
+        default:
+            showAlert
+            break;
+    }
+}
+
 

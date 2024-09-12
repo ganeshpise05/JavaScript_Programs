@@ -43,7 +43,7 @@ let s1 = 100;
 let s2 = 200;
 let s3 = 300;
 
-
+console.log(Array.of(s1,s2,s3));
 
 console.log("----------------");
 

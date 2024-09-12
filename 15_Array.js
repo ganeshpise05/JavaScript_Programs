@@ -10,7 +10,7 @@ console.log("----------");
 
 const ans = marvelHeroes.concat(dcHeroes)
 
-
+console.log(ans);
 
 console.log("----------------");
 

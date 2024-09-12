@@ -1,5 +1,4 @@
 const marvelHeroes = ["Thor","Ironman","Spiderman"]
-const dcHeroes = ["Superman", "Flash", "Batman"]
 
 marvelHeroes.push(dcHeroes)
 
@@ -11,6 +10,7 @@ console.log("----------");
 const ans = marvelHeroes.concat(dcHeroes)
 
 console.log(ans);
+
 
 console.log("----------------");
 

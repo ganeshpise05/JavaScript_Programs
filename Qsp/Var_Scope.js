@@ -18,8 +18,7 @@ console.log("-------");
 if (true) {
     var d = 40
 }
-con
-sole.log(d);
+console.log(d);
 
 console.log("-----------");
 

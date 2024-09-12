@@ -1,4 +1,4 @@
-const marvelHeroes = ["Thor","Ironman","Spiderman"]
+
 const dcHeroes = ["Superman", "Flash", "Batman"]
 
 marvelHeroes.push(dcHeroes)

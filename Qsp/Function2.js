@@ -65,9 +65,20 @@ console.log(10 - "10"); // 0
 console.log(10 / 0); // Infinity
 console.log(10 / "0"); // Infinity
 console.log("10"+ + "10"); // 1010
-console.log("a" + 10); 
+console.log("a" + 10);  // a10
 
 // in + operator it first perform the operation concatination then after addition.
+
+let val = prompt("Enter a number: ")
+console.log(val);
+console.log(typeof val); // String
+console.log(Number (val)); // String Into number convert
+console.log(parseInt(val)); // String Into number convert
+console.log(+val); // String Into number convert
+
+
+
+
 
 
 

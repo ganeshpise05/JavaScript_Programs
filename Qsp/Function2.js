@@ -29,13 +29,28 @@ let findVowels = (val) =>{
 }
 findVowels(str)
 
+/*
 //  Create table from user input
 let num = prompt("Enter number")
-
 let tableFunct = (number) =>{
     console.log(number);
-    for (let i = 1; i <= 10 ; i++){
-        console.log(`${number} * ${i} = ${number*i}`); 
+    for (let i = 2; i <= 10 ; i++){
+        // console.log(`${number} * ${i} = ${number*i}`); 
+        console.log(`${number*i}`); 
     }
 }
 tableFunct(num)
+*/
+
+// Find length of String by user input.
+let str2 = prompt("Enter String: ")
+let findLength = (val) =>{
+    // let length = 0
+    let i = 0
+    while (val[i] != undefined) {
+    //   length++
+      i++;  
+    }
+  console.log(`Length of given string is: ${i}`);
+}
+findLength(str2)

@@ -29,4 +29,13 @@ let findVowels = (val) =>{
 }
 findVowels(str)
 
+//  Create table from user input
+let num = prompt("Enter number")
 
+let tableFunct = (number) =>{
+    console.log(number);
+    for (let i = 1; i <= 10 ; i++){
+        console.log(`${number} * ${i} = ${number*i}`); 
+    }
+}
+tableFunct(num)

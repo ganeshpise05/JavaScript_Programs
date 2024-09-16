@@ -40,7 +40,7 @@ let tableFunct = (number) =>{
     }
 }
 tableFunct(num)
-*/
+
 
 // Find length of String by user input.
 let str2 = prompt("Enter String: ")
@@ -54,3 +54,20 @@ let findLength = (val) =>{
   console.log(`Length of given string is: ${i}`);
 }
 findLength(str2)
+
+*/
+
+console.log("--------------");
+
+console.log("10" + "10"); // 1010
+console.log("10" == 10); // true
+console.log(10 - "10"); // 0
+console.log(10 / 0); // Infinity
+console.log(10 / "0"); // Infinity
+console.log("10"+ + "10"); // 1010
+console.log("a" + 10); 
+
+// in + operator it first perform the operation concatination then after addition.
+
+
+

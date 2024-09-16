@@ -12,12 +12,17 @@ let add2 = (a,b=0) => {
 };
 console.log(add2(100)); // b=0 default parameter
 
+console.log("-------------------");
+
+
 // Find out the vowels in given string
-let str = "hello hunny bunny"
+// In js String have index.
+let str = "hello hunny bunny"  
 let findVowels = (val) =>{
     for(let i=0;i<=val.length-1;i++){
-        if (str[i]) {
-            
+        if (val[i]=='a' || val[i]=='e' || val[i]=='i' || val[i]=='o' || val[i]=='u') {
+              console.log(val[i]);  
         }
     }
 }
+findVowels(str)

@@ -17,12 +17,16 @@ console.log("-------------------");
 
 // Find out the vowels in given string
 // In js String have index.
-let str = "hello hunny bunny"  
+let str = "hello hunny bunny you are my pumkin"  
 let findVowels = (val) =>{
+    let temp = ''
     for(let i=0;i<=val.length-1;i++){
         if (val[i]=='a' || val[i]=='e' || val[i]=='i' || val[i]=='o' || val[i]=='u') {
-              console.log(val[i]);  
+              temp += val[i] 
         }
     }
+    console.log(temp); 
 }
 findVowels(str)
+
+

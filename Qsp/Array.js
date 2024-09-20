@@ -63,11 +63,19 @@ do{
 }
 while(j < arr2.length)
  
+console.log("-----------"); 
+
+    arr2.forEach( element => {
+        console.log(element); 
+    })
+    
 console.log("*-----------*");
 
-arr2.forEach( element => {
-    console.log(element); 
-})
+// Shortest way to writing fuction.
+
+let a = val => "hello"
+console.log(a);
+console.log(a());
 
 
 

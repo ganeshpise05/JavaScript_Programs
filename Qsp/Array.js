@@ -77,6 +77,18 @@ let a = val => "hello"
 console.log(a);
 console.log(a());
 
+console.log("****Types Of HOF****");
+
+
+// Higher Order Functions 
+
+// 1.ForEach loop as a HOF
+
+let ar = [1,2,3,4,5,6,7,8,9,10]
+ar.forEach((a) => {console.log(a) }); // for printing element
+ar.forEach((a,i) => {console.log(a,i) }); // for printing index and element
+ar.forEach((a,i,w) => {console.log(a,i,w) }); // for printing element , index , whole array
+
 
 
 

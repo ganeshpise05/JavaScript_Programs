@@ -58,6 +58,41 @@ console.log("----------------------");
 
 console.log("------------------------");
     
+// Accesing variable declared inside object 
+
+// let value  = "10000"
+
+// let obj2 = {
+//     key : value
+// }
+// console.log(obj2[key]);
+
+let obj3 = {
+    name : "Funtya",
+    mobile : 8329988688,
+    email : "piseganesh2205@gmail.com"
+}
+
+console.log("name" in obj3); // true
+console.log("sal" in obj3); // false 
+
+// Inside the object we can create object and console 
+
+let obj4 = {
+    name : "Funtya",
+    mobile : 8329988688,
+    email : "piseganesh2205@gmail.com",
+
+    funct : () =>{
+      console.log(obj4.name);   // in javascript we can't use this keyword inside Arrowfunction in normal function it used.
+    } ,
+
+    funct2 : function () {
+        console.log(this.mobile); 
+    }
+}
+obj4.funct();
+obj4.funct2();
     
 
 

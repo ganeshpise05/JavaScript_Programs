@@ -38,9 +38,61 @@ console.log(arr2.at(0)); // 10
 console.log(arr2.at(2)); // 30
 console.log(arr2.at(10)); // Undefined
 
+console.log("----------------------");
 
+// Loops in Array
 
+for(let i = 0; i < arr2.length;i++){
+    console.log(arr2[i]); 
+}
 
+console.log("-----------");
 
+let i = 0;
+while (i < arr2.length) {
+    console.log(arr2[i]);
+    i++;
+}
 
+console.log("-----------");
+
+let j = 0 ;
+do{
+    console.log(arr2[j]);
+    j++; 
+}
+while(j < arr2.length)
  
+console.log("*-----------*");
+
+arr2.forEach( element => {
+    console.log(element); 
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -31,7 +31,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(a => {
-    console.log(a); 
+    console.log(a*a); 
 });
 
 console.log("---------------");
@@ -86,9 +86,18 @@ Cherry
 Date     */
 
 const words = ["apple", "banana", "cherry", "date"];
-words.forEach(element => {
-    console.log(element); 
+
+words.forEach(function(word) {
+
+  let capitalizedWord = word[0].toUpperCase();
+  
+  for (let i = 1; i < word.length; i++) {
+    capitalizedWord += word[i];
+  }
+
+  console.log(capitalizedWord);
 });
+
 
 console.log("---------------");
 
@@ -105,8 +114,8 @@ Laptop2
 Phone3 */
 
 const items = ["Book", "Pen", "Laptop", "Phone"];
-items.forEach(element => {
-    console.log(element); 
+items.forEach( function (index,element) {
+    console.log(`${element}  ${index}` ); 
 });
 
 console.log("---------------");

@@ -44,6 +44,7 @@ CreateObj2("Rayesh")
 
 // Create object at once & insert multiple values or data of student
 
+
 let object = (id,name,quali,yop,CGPA,contact,email) => {
     let obj4 = {
         id,

@@ -18,6 +18,7 @@ console.log(obj.name); // Ganesh
 obj.age = 24 // Assign new value to age 
 console.log(obj);
 
+
 console.log("-----------------");
 
 

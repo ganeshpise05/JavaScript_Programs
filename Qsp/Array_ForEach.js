@@ -183,3 +183,4 @@ letters.forEach( function (letters) {
 console.log("Number of vowels:", count);
 
 console.log("---------------"); 
+

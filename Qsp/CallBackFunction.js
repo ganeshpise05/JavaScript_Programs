@@ -18,6 +18,7 @@
    console.log("--------------");
    
 
+   
 /* 2.	*Callback Function (Order Groceries Online)*:  
    Create a function placeGroceryOrder that accepts a callback. Print “Order placed for groceries.” Then, use the callback to notify when the groceries are delivered.  
    *Example*:  
@@ -89,5 +90,5 @@
     brewCoffee(coffeeReady); // “Coffee is ready!”  */
 
 
-    
+
     console.log("--------------");

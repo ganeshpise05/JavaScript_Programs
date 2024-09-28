@@ -89,5 +89,4 @@
     brewCoffee(coffeeReady); // “Coffee is ready!”  */
 
 
-    
     console.log("--------------");

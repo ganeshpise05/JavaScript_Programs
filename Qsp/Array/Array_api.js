@@ -131,6 +131,22 @@ console.log(arr.sort((currentVal,nextVal)=>{
     return  nextVal - currentVal    // decending order print 
 }));
 
+console.log("-------------------");
+ // Using sort method as CBF
+ let sortArray = arr.sort((a,b) => {
+     return a-b;
+ })
+ console.log(sortArray);
+ console.log(arr);
+ 
+ console.log("------------------'");
+ // Using forEach method
+ let newArr = arr.forEach((val) => {
+     console.log(val+100); 
+ })
+ console.log(newArr);
+ console.log(arr);
+
 
 
 

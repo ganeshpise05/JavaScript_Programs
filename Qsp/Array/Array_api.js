@@ -101,8 +101,20 @@
 
 
     // Using for loop
-    for (let i = 0; i < arr.length; i++) {
-        console.log(arr[i]); 
-   }
+//     for (let i = 0; i < arr.length; i++) {
+//         console.log(arr[i]); 
+//    }
 
-   
+   console.log("--------------");
+
+   // using forEach loop printing val,index & wholeArray
+
+     arr.forEach((val,index,wholeArry)=>{
+     
+     console.log(val.first_name); 
+    //console.log(val);
+    // console.log(index);
+    //  console.log(wholeArry);
+
+    //console.log(val,index,wholeArry)   
+   }) 

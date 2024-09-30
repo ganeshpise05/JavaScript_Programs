@@ -140,11 +140,11 @@ console.log("-------------------");
  console.log(arr);
  
  console.log("------------------'");
- // Using forEach method
+ // Using forEach loop
  let newArr = arr.forEach((val) => {
-     console.log(val+100); 
+     console.log(val+100);  
  })
- console.log(newArr);
+ console.log(newArr); // return undefined
  console.log(arr);
 
 

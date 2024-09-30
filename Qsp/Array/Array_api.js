@@ -118,3 +118,34 @@
 
     //console.log(val,index,wholeArry)   
    }) 
+   console.log("--------------");
+
+
+// sorting array by using sort() method
+console.log(arr.sort());    // it can sort only 2 digit number.
+console.log(arr.sort((currentVal,nextVal)=>{
+    return currentVal - nextVal     // asending order print 
+}));
+
+console.log(arr.sort((currentVal,nextVal)=>{
+    return  nextVal - currentVal    // decending order print 
+}));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

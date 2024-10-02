@@ -20,6 +20,7 @@ let data =
     {"id":17,"first_name":"Julie","last_name":"Sambrok","email":"jsambrokg@deviantart.com","gender":"Female"},
      ]
 
+   // Example 1
     let maleArray = data.filter ((val) => {
         return val.gender = "Male"
     })
@@ -27,7 +28,7 @@ let data =
 
     console.log("*****************************************");
     
-
+    // Example 2
     let femaleArray = data.filter ((val) => {
         return val.gender = "Female"
     })

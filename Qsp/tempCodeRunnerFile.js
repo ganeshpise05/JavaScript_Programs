@@ -1,2 +1,6 @@
-let  a1 =  Object.fromEntries(a)
-// console.log(a1);
+let movie = {
+//     title : 'inception',
+//     director : 'Thomas',
+//     releaseYear : 2010,
+
+// }

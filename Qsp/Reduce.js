@@ -33,3 +33,15 @@ console.log(reduceAddi); // 150
    we can use for to store value
    we can store two arguments in array
 */
+
+
+let reduceArray = arr.reduce((accumelator,val,i,wholeArray) => {
+   return (accumelator += val)
+},1000)
+console.log(reduceArray); //1150  reduce method gives two arguments as input 
+
+
+
+
+
+

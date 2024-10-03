@@ -21,3 +21,15 @@ let filterAddi = arr.filter ((val,i) => {
 })
 console.log(filterAddi); //[ 10, 20, 30, 40, 50 ]
 
+// Using Reduce() method
+let reduceAddi = arr.reduce((acc,val,i,wholeArr) => {
+    return (acc += val)
+})
+console.log(reduceAddi); // 150
+
+/* 
+   Reduce can not return array it can return value
+   map & filter cal return the array
+   we can use for to store value
+   we can store two arguments in array
+*/

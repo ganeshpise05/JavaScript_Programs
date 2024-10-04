@@ -38,7 +38,6 @@ let addToCart1 = data.find((val) => {
     return val.id == '6'
 })
 
-
  console.log(addToCart1); //cart item selected
  cartItems.push(addToCart1)
 

@@ -35,12 +35,13 @@ let addToCart = data.find((val) => {
 let addToCart1 = data.find((val) => {
     return val.id == '6'
 })
+
 console.log(addToCart); //cart item selected
  cartItems.push(addToCart)
 
  console.log(addToCart1); //cart item selected
  cartItems.push(addToCart1)
- 
+
 console.log(cartItems); // object added in cart
 
  

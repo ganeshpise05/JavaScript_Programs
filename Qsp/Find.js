@@ -44,5 +44,7 @@ let addToCart1 = data.find((val) => {
 console.log(cartItems); // object added in cart
 
  
+console.log("---------------------------------");
+
 
 

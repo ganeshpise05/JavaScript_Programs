@@ -28,3 +28,12 @@ console.log(b("xy"));
 
 console.log("--------------------------");
 
+function c (str) {
+    if (str.length % 2 != 0) {
+        if ( str.length == 1) {
+            return str.charCodeAt(0);
+        }
+    } else {
+        
+    }
+}

@@ -1,3 +1,5 @@
+// Assignment 7/10/2024
+
 function a (str) {
     let count  = 0;
     for (let  i = 0;  i < str.length;  i++) {

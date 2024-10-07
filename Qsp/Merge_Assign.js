@@ -10,3 +10,19 @@ function a (str) {
 }
 
 console.log(a("My name is Ganesh"));
+
+console.log("--------------------------");
+
+
+
+function b(str) {
+    if (str.length>=3) {
+        return str.charAt(2);
+    } else {
+        return "length is short";
+    }
+}
+
+console.log(b("abc"));
+console.log(b("xy"));
+

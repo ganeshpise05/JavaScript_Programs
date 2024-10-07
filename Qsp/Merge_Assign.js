@@ -26,3 +26,5 @@ function b(str) {
 console.log(b("abc"));
 console.log(b("xy"));
 
+console.log("--------------------------");
+

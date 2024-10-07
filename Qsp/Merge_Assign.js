@@ -13,8 +13,6 @@ console.log(a("My name is Ganesh"));
 
 console.log("--------------------------");
 
-
-
 function b(str) {
     if (str.length>=3) {
         return str.charAt(2);

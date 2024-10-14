@@ -99,6 +99,7 @@ console.log("----------------");
     destructure it to extract the first number into one variable and the rest of the numbers into another array using the spread operator.
 */
 
+const nums = [1, 2, 3, 4, 5]
 
 
 /*

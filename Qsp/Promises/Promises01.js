@@ -29,15 +29,14 @@ p2.catch((err) => {
 });
 console.log("Last");
  
-*/
 
 // Example 3
 
 console.log("First");
 
 let p = fetch("https://api.github.com/users"); 
- console.log(p);
- p.then((val) => {
+console.log(p);
+p.then((val) => {
     console.log(val);
     let data = val.json();
     return data ;
@@ -45,9 +44,15 @@ let p = fetch("https://api.github.com/users");
  
 console.log("Last");
 
+*/
 
+// Example 4
 
+fetch("https://api.github.com/users").then((val) => {
+    return val.json()}).then((data) => {console.log(data);}).catch((err) => {console.log(err);
+    })
 
+    
 
 
 

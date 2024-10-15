@@ -41,8 +41,7 @@ let p = fetch("https://api.github.com/users");
     console.log(val);
     let data = val.json();
     return data ;
- }).then((val2) => {console.log(val2);
- })
+ }).then((val2) => {console.log(val2)}).catch((err) => {console.log("Something went wrong", err)})
  
 console.log("Last");
 

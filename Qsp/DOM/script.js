@@ -65,6 +65,10 @@ console.log(myDiv); // Setting element
 // myDiv.innerHTML = "Hello" // 1.Setting Html to element
 myDiv.textContent = "Funtya" // 2.Setting Html to element
 
+let body = document.body
+console.log(body);  // But body is already present in our Js document.
+
+
 
 
 

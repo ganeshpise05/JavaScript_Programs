@@ -31,12 +31,18 @@ console.log(Input1);
 
 */
 
+/*
 // SetAttribute to given block,div or form tag
 let myDiv = document.querySelector("div")
 console.log(myDiv);
 myDiv.setAttribute("class","myDiv")
 console.log(myDiv);
 
+*/
+
+// Disable input field
+let input = document.querySelector('input')
+input.setAttribute("disabled","")
 
 
 

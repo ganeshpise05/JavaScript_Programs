@@ -40,9 +40,22 @@ console.log(myDiv);
 
 */
 
+// RemoveAttribute to given block,dic or form tag
+let myDiv = document.querySelector("div")
+console.log(myDiv);
+myDiv.setAttribute("class","myDiv")
+console.log(myDiv);
+myDiv.removeAttribute("class")
+console.log(myDiv);
+
+/*
 // Disable input field
 let input = document.querySelector('input')
 input.setAttribute("disabled","")
+
+*/
+
+
 
 
 

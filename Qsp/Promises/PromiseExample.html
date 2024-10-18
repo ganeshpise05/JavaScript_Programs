@@ -13,6 +13,42 @@
 <body>
     
     <h1>Welcome To Promises Class !!</h1>
+    <hr><br>
+
+    <h4>Promises Theory</h4>
+    <ul>
+        <li>Promises object in Js.</li>
+        <li>Used to handle asynchronous task.</li>
+        <li>with promises there are 3 states : <b>1> pending , 2> resolve , 3> rejected</b></li>
+
+        <ol>
+            <li><b>pending: </b>
+              <ul><li>promises will be in pending state when it is neither resolved or rejected .</li></ul>
+            </li><br>
+
+
+            <li><b>resolve: </b>
+               <ul>
+                <li>When promises are fulfilled it will be in resolve state.</li>
+                <li>When promise is resolve it will call then block.</li>
+                <li>And we can be used to handle the errors or exception</li>
+               </ul>
+            </li><br>
+
+
+            <li><b>rejected: </b>
+               <ul>
+                <li>When promises are not fullfilled it will be in rejected state.</li>
+                <li>When promises is rejected it will be call the catch block,</li>
+                <li>catch block can be used to handle the error or exception.</li>
+               </ul>
+            </li><br>
+        </ol>
+    </ul>
+    
+    <h4>Note : Your promises either resolved or rejected at a same time .</h4>
+    <h4>      Asynchronous task in Js will internally return the promise we just have to handle this promise using <b>then & catch</b> block</h4>
+    <h4>      fetch() return promise it handle by using then & catch block.</h4>
 
 </body>
 </html>

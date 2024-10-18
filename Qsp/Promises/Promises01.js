@@ -52,6 +52,7 @@ fetch("https://api.github.com/users").then((val) => {
     return val.json()}).then((data) => {console.log(data);}).catch((err) => {console.log(err);
     })
 
+ 
     
 
 

@@ -60,6 +60,11 @@ input.setAttribute("disabled","")
 // Creating elements or div tags
 let myDiv = document.createElement("div")
 console.log(myDiv);
+myDiv.setAttribute("class","myClass")
+console.log(myDiv); // Setting element
+// myDiv.innerHTML = "Hello" // 1.Setting Html to element
+myDiv.textContent = "Funtya" // 2.Setting Html to element
+
 
 
 

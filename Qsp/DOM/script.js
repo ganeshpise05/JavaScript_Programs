@@ -21,11 +21,51 @@ console.log(userInput);
 
 */
 
+/*
 // 3:  Targeting element by using QuerySelector (only perticular tag/element target) ,QuerySelectorAll (for All tag target)
 let Input = document.querySelector(".userInput");
 console.log(Input);
 
 let Input1 = document.querySelectorAll(".userInput");
 console.log(Input1);
+
+*/
+
+// SetAttribute to given block,div or form tag
+let myDiv = document.querySelector("div")
+console.log(myDiv);
+myDiv.setAttribute("class","myDiv")
+console.log(myDiv);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

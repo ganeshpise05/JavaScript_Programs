@@ -57,6 +57,7 @@ input.setAttribute("disabled","")
 
 */
 
+/*
 // Creating elements or div tags
 let myDiv = document.createElement("div")
 console.log(myDiv);
@@ -73,6 +74,15 @@ myDiv.textContent = "Funtya" // 2.Setting Html to element
 let {body} = document
 console.log(body);
 body.append(myDiv) // Giving element to body tag  
+
+*/
+
+
+// 19/10/2024
+// Creating nav Bar
+let {body} = document;
+let nav = document.createElement("nav")
+console.log(nav);
 
 
 

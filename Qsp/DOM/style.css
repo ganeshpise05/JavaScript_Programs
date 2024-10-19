@@ -1,0 +1,12 @@
+h1{
+    margin-left: 35%;
+}
+
+nav{
+    display: flex;
+    gap: 20%;
+    background:  pink;
+    height: 10vh;
+    align-items: center;
+    margin-top: 20px;
+}

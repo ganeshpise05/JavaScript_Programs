@@ -93,6 +93,13 @@ body.appendChild(nav)
 console.log(nav);
 
 
+// For removing Html tags or hedings
+let heading = document.querySelector("h2")
+heading.remove()
+
+
+
+
 
 
 

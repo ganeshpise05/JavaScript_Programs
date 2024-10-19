@@ -79,6 +79,8 @@ body.append(myDiv) // Giving element to body tag
 
 
 // 19/10/2024
+
+/*
 // Creating nav Bar
 let {body} = document;
 let nav = document.createElement("nav")
@@ -97,6 +99,7 @@ console.log(nav);
 let heading = document.querySelector("h2")
 heading.remove()
 
+*/
 
 
 

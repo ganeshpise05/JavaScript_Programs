@@ -82,6 +82,14 @@ body.append(myDiv) // Giving element to body tag
 // Creating nav Bar
 let {body} = document;
 let nav = document.createElement("nav")
+nav.innerHTML = `
+
+<div class = "navDivs"> Home </div>
+<div class = "navDivs"> About </div>
+<div class = "navDivs"> Login </div>
+<div class = "navDivs"> Search </div>  `
+
+body.appendChild(nav)
 console.log(nav);
 
 
